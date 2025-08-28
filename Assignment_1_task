@@ -1,0 +1,57 @@
+Assignment - Akron Zoo:
+Due Date: Sep. 10th, 2025
+The business problem is to identify the features of the membership program and customer
+characteristics, or combination thereof, that are explainable and reliable predictors of a customer
+to upgrade their membership at the time of the annual renewal.
+The Akron Zoo society has compiled a dataset of its customers including their
+evaluation/use of membership, demographic characteristics, and the upgrade decision (yes/no).
+During the program, you learn several predictive/classification models that vary in terms
+of the bias-variance tradeoffs they involve, and the statistical approach they are based on. You
+are also knowledgeable about different ways of (a) validating and evaluating a predictive model,
+(b) checking for sensitivity and robustness, (using multiple model selection criteria, and (d)
+interpreting the model parameter estimates to provide insights for solving the business program.
+Some of the models you are familiar with include Logistic/Regularized, SVM, Naïve
+Bayes, Random Forest, and GBM.
+Your goal is to use these models to (a) predict a customer’s probability of upgrading (b)
+identify features or combinations thereof that are managerially useful to enhance (increase) this
+probability, (c) quantify the predictive effect of these identified feature(s) and (d) explain the
+insight (counter-intuitive) that your results uncover.
+Compare the different models on the above 4 dimensions and recommend the “best”
+model that meets the criteria of robustness, minimum bias and high accuracy. Explain your
+reasoning.
+Finally, thoroughly explain and interpret the recommended “best” model in solving the
+business problem in a way that builds competitive advantage.
+You are given two datasets: training and test data with identical features as per
+description below.
+Each assignment requires 3 parts to completed and submitted:
+1. Fully annotated python code-book (60% grade) that addresses and solves the analytics
+problem to the best of your knowledge and effort. Annotation is an explainable code that
+explains the statistical reasoning for the key steps in the code.
+2. Presentation slides (40% grade) no more than 12 (widescreen) that present your project as
+if you were delivering your work to a senior manager responsible for the business problem.
+Assume that the manager is statistically knowledgeable to understand the analytics but
+7
+needs detail to evaluate the accuracy and robustness of your work. The manager’s key
+focus is on the insights your analysis reveal for solving the business problem.
+3. Analytics Pipeline: Develop and provide the analytics plan for solving the business
+problem that guided your work as per #1 above.
+Data Description (Features) for the “Upgrade” Data for Assignment 1
+NEW ID Unique ID for each customer
+UPD 1 = UPGRADE, 0 = NO UPGRADE
+BENEFITS: Membership benefits as per customer
+COSTS: Perceived cost of membership
+VALUE: Perceived value of being a member
+IDENTITY: Degree to which customer identifies with the organization
+KNOW: Customer’s knowledge about the organization
+SAT: Customer’s Satisfaction with the membership
+FLE: Customer’s satisfaction with frontline employees in interactions
+TRUSTFOR Customer’s trust in the organization
+AGE_REC: 1 = 18-34; 2 = 35-44, 3 = 45-54, 4 = 54+
+GENDER: 1 = male, 2 = female
+EDUC_REC 1 = some college, 2 = college degree, 3 = graduate school
+MSTAT: 1= married, 2 = single, 3 = divorce/separated, 4 = widow/widower
+SIZE: Total number of people living in the household
+CHILD1: Total number of children/grand children
+DIST: 1 < 10 minutes, 2 = 10-20 mts, 3 = 21-30 mts, 4 = > 30 mts TVIS:
+Number of times a customer used the membership to visit:
+1 = <=2, 2 = 3-4, 3 = 5-6, 4 = 7-8, 5 = > 8
